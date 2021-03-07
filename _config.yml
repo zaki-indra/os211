@@ -1,0 +1,14 @@
+title: "Operating Systems 2021-1 (OS211)"
+description: "Hello"
+author: "Zaki Indra Yudhistira"
+copyright: "2021-2021"
+address: "Tangsel"
+sitemap: "true"
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+urlweb: "https://zaki-indra.github.io/os211/"
+urlgithub: "https://github.com/zaki-indra/os211/"
+urlghpage: "https://zaki-indra.github.io/os211/"
+keywords: "jekyll, testing"
+github: [metadata]
