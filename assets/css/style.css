@@ -1,0 +1,54 @@
+.plainclass {
+  color: whitesmoke;
+  background-color: #111111;
+  font-family: Helvetica, Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+.row {
+  display: flex;
+  background-color: #53595a;
+  padding: 1rem 3rem 1rem 1rem;
+}
+
+.container {
+  min-width: 70%;
+  max-width: 70%;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-left: 50px;
+}
+
+.right1 {
+  font-size: 2.2rem;
+  font-weight: 700;
+}
+
+.right2 {
+  font-size: 1.5rem;
+  margin-top: 10px;
+  font-weight: 500;
+}
+
+.content {
+  color:whitesmoke;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.footer {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+@media screen and (max-width:768px) {
+
+  .container {
+    width: 100%;
+  }
+}

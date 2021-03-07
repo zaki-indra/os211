@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    {% include head.html %}
+    <body class="plainclass">
+        <div class="container">
+            <header>
+                <div class="row">
+                    <div class="column left">
+                        <img src="{{ site.baseurl }}/assets/images/wave.jpg" alt="Wave" style="width:130px">
+                    </div>
+                    <div class="right">
+                        <div class="column right1">
+                            {% if page.title %}{{ page.title | escape }}
+                            {% else %}{{ site.title | escape }}{% endif %}
+                        </div>
+                        <div class="column right2">
+                            {% if page.author %}{{ page.author | escape }}
+                            {% else %}{{ site.author | escape }}{% endif %}
+                            ---
+                            {% if page.address %}{{ page.address | escape }}
+                            {% else %}{{ site.address | escape }}{% endif %}
+                        </div>
+                    </div>
+                </div>
+            </header>
+            {% include navbar.html %}
+            <section class="content">
+                {{ content }}
+            </section>
+            {% include footer.html %}
+        </div>
+    </body>
+</html>
