@@ -46,6 +46,15 @@
   font-weight: 400;
 }
 
+.content a {
+  color: bisque;
+  text-decoration: none;
+}
+
+.content a:hover {
+  text-decoration: underline;
+}
+
 @media screen and (max-width:768px) {
 
   .container {
