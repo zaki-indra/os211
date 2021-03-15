@@ -6,3 +6,5 @@ ZCZC W01 30 L03 Github related
 ZCZC W01 60 L05 GSGS related
 ZCZC W01 60 L11 Assignment #1
 ZCZC W01 60 L04 Modify Github Page
+ZCZC W02 60 L12 Assignment #2
+ZCZC W02 45 L06 Reading References/Books/Documents
