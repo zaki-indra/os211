@@ -42,3 +42,8 @@ ZCZC W08 120 L10 Assignment (General)
 ZCZC W08 30 L23 Discord: Pop Quiz
 ZCZC W08 30 L01 SCELE related
 ZCZC W08 180 L05 GSGS related
+ZCZC W09 180 L10 Assignment (General)
+ZCZC W09 30 L23 Discord: Pop Quiz
+ZCZC W09 30 L01 SCELE related
+ZCZC W09 120 L05 GSGS related
+ZCZC W09 60 L06 Reading References/Books/Documents
